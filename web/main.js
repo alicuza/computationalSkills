@@ -13,7 +13,7 @@ fetch(sourceURL)
       outputData(persons[key]);
     }
   });
-console.log(persons);
+  
   // Change inside this function
   function outputData(person) {
     // Get the name from the link
