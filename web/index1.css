@@ -22,7 +22,7 @@ table, th, td{
   	border-collapse: collapse;  /* Optional - if you don't want to have double border where cells touch */
 }
 
-.tableTitles{
+.tableTitles th {
 	background-color: #77a9ef;
 }
 
