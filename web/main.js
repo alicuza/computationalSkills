@@ -13,7 +13,7 @@ fetch(sourceURL)
       outputData(persons[key]);
     }
   });
-
+console.log(persons);
   // Change inside this function
   function outputData(person) {
     // Get the name from the link
@@ -48,7 +48,7 @@ fetch(sourceURL)
     cellDeath.innerHTML = person.day + ' ' + person.month + ' 2011';
 
   }
-  
+
   window.onload = function() {
     var buttons = document.getElementsByTagName('button');
     for (var i = 0, length = buttons.length; i < length; i++) {
