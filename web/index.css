@@ -1,0 +1,32 @@
+p {
+  color: red;
+  background-color: green;
+}
+
+.uglyaf {
+  color: pink;
+  background-color: teal;
+}
+.borders, .borders * { /* * means all the children*/
+  border: 2px solid black;
+  border-spacing: 0; /*removes cell spacing*/
+  border-collapse: collapse; /*optional*/
+}
+.header  {
+  background-color: grey;
+}
+#linklist { /* for unique items*/
+  background-color: beige;
+}
+
+img {
+  width: 200px;
+}
+
+.center {
+  margin: 2px;
+  padding: 2px;
+  width: 200px;
+  text-align: center;
+  border: solid;
+}
